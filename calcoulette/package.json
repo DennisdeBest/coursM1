@@ -1,0 +1,17 @@
+{
+  "name": "calcoulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server '.' --files '.'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
+}

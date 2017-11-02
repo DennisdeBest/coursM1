@@ -1,0 +1,33 @@
+#container {
+  margin: 100px auto 0 auto;
+  max-width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 2px #26a69a solid;
+  box-sizing: border-box; }
+  #container #screen {
+    box-sizing: border-box; }
+    #container #screen input {
+      text-align: right;
+      padding: 0 5px;
+      box-sizing: border-box;
+      font-family: Days One, serif;
+      font-size: 1.5em;
+      margin-bottom: 0;
+      border-bottom: solid 2px #26a69a;
+      color: black; }
+  #container .buttonRow {
+    display: flex; }
+    #container .buttonRow .button {
+      display: inline;
+      width: 25%; }
+    #container .buttonRow .buttonDouble {
+      width: 50%; }
+
+#palindromeContainer {
+  width: 250px;
+  border: 1px solid #26a69a;
+  box-sizing: border-box;
+  margin: 25px auto; }
+
+/*# sourceMappingURL=main.css.map */

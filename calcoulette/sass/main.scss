@@ -1,0 +1,43 @@
+$main-color: #26a69a;
+
+#container {
+  margin: 100px auto 0 auto;
+  max-width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 2px $main-color solid;
+  box-sizing: border-box;
+  #screen {
+    box-sizing: border-box;
+    input {
+      text-align: right;
+      padding: 0 5px;
+      box-sizing: border-box;
+      font-family: Days One, serif;
+      font-size: 1.5em;
+      margin-bottom: 0;
+      border-bottom: solid 2px $main-color;
+      color: black;
+    }
+  }
+  .buttonRow {
+    display: flex;
+    .button {
+      display: inline;
+      width: 25%;
+      &.operator {
+
+      }
+    }
+    .buttonDouble {
+      width: 50%;
+    }
+  }
+}
+
+#palindromeContainer {
+  width: 250px;
+  border: 1px solid $main-color;
+  box-sizing: border-box;
+  margin: 25px auto;
+}

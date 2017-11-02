@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css"  />
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <meta charset="UTF-8">
+    <title>calcoulette</title>
+</head>
+<body>
+<div id="container">
+    <div id="screen"><input id="screenOutput" class="screen" disabled="disabled"></div>
+    <div id="buttonContainer">
+        <div class="buttonRow">
+            <div class="buttonDouble btn red calcButton">DEL</div>
+            <div class="button btn red calcButton">C</div>
+            <div class="button btn operator orange calcButton">X</div>
+        </div>
+        <div class="buttonRow">
+            <div class="button btn calcButton">1</div>
+            <div class="button btn calcButton">2</div>
+            <div class="button btn calcButton">3</div>
+            <div class="button btn operator orange calcButton">/</div>
+        </div>
+        <div class="buttonRow">
+            <div class="button btn calcButton">4</div>
+            <div class="button btn calcButton">5</div>
+            <div class="button btn calcButton">6</div>
+            <div class="button btn operator orange calcButton">-</div>
+        </div>
+        <div class="buttonRow">
+            <div class="button btn calcButton">7</div>
+            <div class="button btn calcButton">8</div>
+            <div class="button btn calcButton">9</div>
+            <div class="button btn operator orange calcButton">+</div>
+        </div>
+        <div class="buttonRow">
+            <div class="button btn calcButton">.</div>
+            <div class="button btn calcButton">0</div>
+            <div class="buttonDouble btn green calcButton">=</div>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+
+
+<div id="palindromeContainer">
+<input id="palin"><div id="palinButton" class="btn">Palindrome</div>
+</div>
+
+<div id="palindromeContainer">
+    <input id="facto"><div id="factoButton" class="btn" onclick="facto()">Factorial</div>
+</div>
+
+
+</body>
+</html>

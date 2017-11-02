@@ -1,0 +1,4 @@
+[submodule "apit-chaban"]
+	path = apit-chaban
+	url = git@github.com:papswell/apit-chaban.git
+	branch = master
